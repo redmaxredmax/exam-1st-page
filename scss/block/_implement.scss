@@ -1,0 +1,98 @@
+.implement__container {
+    padding-top: 100px;
+}
+
+.implement__img {
+    max-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 25px 25px 80px 0px #36536b4d;
+    margin-bottom: 48px;
+}
+
+.implement__title {
+    max-width: 327px;
+    color: #36536B;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.277px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.implement__text {
+    max-width: 328px;
+    color: #6C8294;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:748px) {
+    .implement__title {
+        max-width: 573px;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+    }
+
+    .implement__img {
+        max-width: 391px;
+    }
+
+    .implement__text {
+        color: #6C8294;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        max-width: 573px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .implement__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 125px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .implement__img {
+        max-width: 445px;
+        margin-bottom: 0;
+    }
+
+    .implement__title {
+        max-width: 445px;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.369px;
+        text-align: start;
+    }
+
+    .implement__text {
+        max-width: 445px;
+        text-align: start;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width:360px) {
+    .implement__img{
+        max-width: 250px;
+    }
+}
